@@ -12,6 +12,10 @@ Steve has a BSc in Computer Science from Portsmouth University and is passionate
 
 ## 2020
 
+**The adoption and rise in popularity of Kubernetes** - DevOps For Everyone
+
+- [📹 Recording (🇬🇧)](https://www.youtube.com/watch?v=ekWwezcKkUE)
+
 **Mettles journey towards throw-away clusters** - Cloud Native Nordics (Tech Talks)
 
 - [📹 Recording (🇬🇧)](https://www.youtube.com/watch?v=zSKCHZ3wpFM)
