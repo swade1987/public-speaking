@@ -6,6 +6,7 @@ Steve Wade currently leads the Platform Team at Mettle in London. Prior to his c
 
 Steve has a BSc in Computer Science from Portsmouth University and is passionate about cloud-native software development and distributed computing. You can find him as @swade1987 on Twitter and GitHub.
 
+- **[&rarr; Profile Pictures](assets/profile-pictures.md)**
 - **[&rarr; Social Links](#social)**
 
 # Talks
