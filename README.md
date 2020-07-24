@@ -13,6 +13,11 @@ Steve has a BSc in Computer Science from Portsmouth University and is passionate
 
 ## 2020
 
+**DevOps Metrics - Success Follows Failure** - Podcast with WeaveWorks CTO Cornelia Davis
+
+- [🎧 Recording (🇬🇧)](https://episodes.buzzsprout.com/i5e5st4mrerl8xoi7im5u9liy22m?)
+- [📜 Accompanying Blog Post](https://www.weave.works/blog/devops-metrics-success-follows-failure)
+
 **The adoption and rise in popularity of Kubernetes** - DevOps For Everyone
 
 - [📹 Recording (🇬🇧)](https://www.youtube.com/watch?v=ekWwezcKkUE)
