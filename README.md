@@ -13,7 +13,7 @@ Steve has a BSc in Computer Science from Portsmouth University and is passionate
 
 ## 2020
 
-**Mettle: Our GitOps Journey* - CNCF Eastern Canada
+**Mettle: Our GitOps Journey** - CNCF Eastern Canada
 
 - [📹 Recording (🇬🇧)](https://youtu.be/Aic7zI_Ddz0?t=1922)
 
