@@ -13,6 +13,10 @@ Steve has a BSc in Computer Science from Portsmouth University and is passionate
 
 ## 2020
 
+**Mettle: Our GitOps Journey* - CNCF Eastern Canada
+
+- [📹 Recording (🇬🇧)](https://youtu.be/Aic7zI_Ddz0?t=1922)
+
 **DevOps Metrics - Success Follows Failure** - Podcast with WeaveWorks CTO Cornelia Davis
 
 - [🎧 Recording (🇬🇧)](https://episodes.buzzsprout.com/i5e5st4mrerl8xoi7im5u9liy22m?)
