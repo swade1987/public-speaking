@@ -13,6 +13,10 @@ Steve has a BSc in Computer Science from Portsmouth University and is passionate
 
 ## 2020
 
+**How GitOps Keeps Mettle Rolling** - Container Solutions (Fireside Chat - Steve Wade & Pini Reznik)
+
+- [📹 Recording (🇬🇧)](https://www.youtube.com/watch?v=2rJIjiMkVEA)
+
 **Mettle: Our GitOps Journey** - CNCF Eastern Canada
 
 - [📹 Recording (🇬🇧)](https://youtu.be/Aic7zI_Ddz0?t=1922)
