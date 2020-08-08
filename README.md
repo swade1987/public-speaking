@@ -13,6 +13,14 @@ Steve has a BSc in Computer Science from Portsmouth University and is passionate
 
 ## 2020
 
+**Mettle: Our GitOps Journey** - Kubernetes Bangalore Meetup
+
+- [📹 Recording (🇬🇧)](https://www.youtube.com/watch?v=qZS8Omi2Zsg)
+
+**Introduction to GitOps** - TGIK 127 with Duffie Cooley 
+
+- [📹 Recording (🇬🇧)](https://www.youtube.com/watch?v=F70wRexHIwg)
+
 **How GitOps Keeps Mettle Rolling** - Container Solutions (Fireside Chat - Steve Wade & Pini Reznik)
 
 - [📹 Recording (🇬🇧)](https://www.youtube.com/watch?v=2rJIjiMkVEA)
