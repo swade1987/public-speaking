@@ -13,6 +13,10 @@ Steve has a BSc in Computer Science from Portsmouth University and is passionate
 
 ## 2020
 
+**Kubernetes Virtual Roundtable**
+
+- [📹 Recording (🇬🇧)](https://www.youtube.com/watch?v=8oBdZn052Kk)
+
 **From NodeJS to K8s with GitOps 🚀** - Live stream pairing session with Eddie Jaoude
 
 - [📹 Recording (🇬🇧)](https://www.youtube.com/watch?v=oIemUNSU9Lw)
