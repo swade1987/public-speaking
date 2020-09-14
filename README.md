@@ -15,7 +15,7 @@ Steve has a BSc in Computer Science from Portsmouth University and is passionate
 
 **The unanswerable question** - DevOps Exchange September Edition
 
-- [📹 Recording (🇬🇧)](https://youtu.be/UU4hIktdjIs?t=3908)
+- [📹 Recording (🇬🇧)](https://www.youtube.com/watch?v=poXBQ0gLMsI)
 
 **Kubernetes Virtual Roundtable**
 
