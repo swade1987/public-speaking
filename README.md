@@ -11,6 +11,13 @@ Steve has a BSc in Computer Science from Portsmouth University and is passionate
 
 # Talks
 
+## 2021
+
+**Rawkode Live** - Infrastructure as Code & GitOps
+
+- [📹 Recording (🇬🇧)](https://www.youtube.com/watch?v=s9zjayZ1oxA)
+
+
 ## 2020
 
 **The unanswerable question** - DevOps Exchange September Edition
