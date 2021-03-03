@@ -8,12 +8,12 @@
     </tr>
     <tr>
         <td>
-            <a href='avatars/squared.png'><img src='avatars/squared.png' width="50%" height="50%"></a>
+            <a href='avatars/squared.png'><img src='avatars/squared.png'></a>
         </td>
     </tr>
     <tr>
         <td>
-            <a href='avatars/circle-cropped.png'><img src='avatars/circle-cropped.png' width="50%" height="50%"></a>
+            <a href='avatars/circle-cropped.png'><img src='avatars/circle-cropped.png'></a>
         </td>
     </tr>
 </table>
