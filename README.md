@@ -2,9 +2,9 @@
 
 ## Speaker Bio
 
-Steve Wade currently leads the Platform Team at Mettle in London. Prior to his current role, Steve was Principal Kubernetes Consultant at Apprenda providing Kubernetes training and implementation services. Steve has served in technology leadership roles across multiple verticals including real estate, gaming, and the UK parliament. 
+Steve Wade is currently consulting as a Senior Platform Engineer at Underwrite Me in London. Prior to this current role, Steve was Platform Lead at Mettle helping them build out their GitOps centric platforms. You may have heard him speak on The Art of Modern Ops podcast by WeaveWorks as well as on TGIK. Before Mettle, Steve was Principal Kubernetes Consultant at Apprenda providing Kubernetes training and implementation services. Steve has served in technology leadership roles across multiple verticals including real estate, gaming, and the UK parliament. 
 
-Steve has a BSc in Computer Science from Portsmouth University and is passionate about cloud-native software development and distributed computing. You can find him as @swade1987 on Twitter and GitHub.
+Steve has a BSc in Computer Science and is passionate about cloud-native software development and distributed computing. You can find him as @swade1987 on Twitter and GitHub.
 
 - **[&rarr; Profile Pictures](assets/profile-pictures.md)**
 - **[&rarr; Social Links](#social)**
