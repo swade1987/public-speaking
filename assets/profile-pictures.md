@@ -8,7 +8,7 @@
     </tr>
     <tr>
         <td>
-            <a href='avatars/squared.png'><img src='avatars/squared.png'></a>
+            <a href='avatars/squared.jpeg'><img src='avatars/squared.jpeg'></a>
         </td>
     </tr>
     <tr>
