@@ -8,7 +8,9 @@ Prior to this current role, Steve was Platform Lead at Mettle helping them build
 
 You may have heard him speak on The Art of Modern Ops podcast by WeaveWorks as well as on TGIK. 
 
-Before Mettle, Steve was Principal Kubernetes Consultant at Apprenda providing Kubernetes training and implementation services. Steve has served in technology leadership roles across multiple verticals including real estate, gaming, and the UK parliament. 
+Before Mettle, Steve was Principal Kubernetes Consultant at Apprenda providing Kubernetes training and implementation services. 
+
+Steve has served in technology leadership roles across multiple verticals including real estate, gaming, and the UK parliament. 
 
 Steve has a BSc in Computer Science and is passionate about cloud-native software development and distributed computing. You can find him as @swade1987 on Twitter and GitHub.
 
