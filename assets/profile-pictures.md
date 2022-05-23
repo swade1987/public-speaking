@@ -3,7 +3,7 @@
 <table>
     <tr>
         <td>
-            <a href='avatars/black-and-white.jpg'><img src='avatars/black-and-white.jpg'></a>
+            <a href='avatars/2022.png'><img src='avatars/2022.png'></a>
         </td>
         <td>
             <a href='avatars/squared.jpeg'><img src='avatars/squared.jpeg'></a>
