@@ -2,8 +2,8 @@
 
 ## Speaker Bio
 
->Steve Wade is currently one of the founding engineers at KSOC, a Kubernetes security startup.
->Before his current role, Steve held Platform leadership roles at UnderWrite Me and Mettle. During these roles, he leveraged the concept of GitOps to provide self-service platforms to developers.
+>Steve Wade, was one of the founding engineers at KSOC, a Kubernetes security startup.
+>Before this, Steve held Platform leadership roles at UnderWrite Me and Mettle. During these roles, he leveraged the concept of GitOps to provide self-service platforms to developers.
 >He has also provided Kubernetes consultancy and training worldwide during his time as a Consultant at Apprenda.
 >Steve has served in leadership roles across many verticals including real estate, gaming, and the UK parliament.
 >
