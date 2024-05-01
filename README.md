@@ -2,12 +2,14 @@
 
 ## Speaker Bio
 
->Steve Wade, was one of the founding engineers at KSOC, a Kubernetes security startup.
->Before this, Steve held Platform leadership roles at UnderWrite Me and Mettle. During these roles, he leveraged the concept of GitOps to provide self-service platforms to developers.
->He has also provided Kubernetes consultancy and training worldwide during his time as a Consultant at Apprenda.
->Steve has served in leadership roles across many verticals including real estate, gaming, and the UK parliament.
->
->Steve has a BSc in Computer Science and is passionate about cloud-native software development and distributed computing. You can find him as @swade1987 on Twitter and GitHub.
+>Steve Wade was one of the founding engineers at KSOC, a Kubernetes security startup.
+>Before this, Steve held Platform leadership roles at UnderWrite Me and Mettle.
+>During these roles, he leveraged the concept of GitOps to provide self-service platforms to developers.
+>He has also provided Kubernetes consultancy and training worldwide as a Consultant at Apprenda.
+>Steve has held leadership roles in many verticals, including real estate, gaming, and the UK parliament.
+
+>Steve has a BSc in Computer Science and is passionate about cloud-native software development and distributed computing.
+>He can be found as @swade1987 on Twitter and GitHub.
 
 - **[&rarr; Profile Pictures](assets/profile-pictures.md)**
 - **[&rarr; Social Links](#social)**
