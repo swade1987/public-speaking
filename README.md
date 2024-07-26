@@ -2,11 +2,11 @@
 
 ## Speaker Bio
 
->Steve Wade was one of the founding engineers at KSOC, a Kubernetes security startup. Before this, Steve held platform leadership roles at UnderWrite Me and Mettle.
->During these roles, he leveraged the concept of GitOps to provide self-service platforms to developers.
->He also provided cloud-native consultancy and training worldwide as a consultant at Apprenda. Steve has held leadership roles in various verticals, including real estate, gaming, and the UK parliament.
->
->Steve holds a BSc in Computer Science and is passionate about cloud-native software development and distributed computing. He can be found as @swade1987 on Twitter and GitHub.
+>Steve Wade founded The Cloud Native Club, a global community for cloud-native enthusiasts. He is also a maintainer of the Flux Terraform Provider.
+>As an experienced conference speaker, independent cloud-native consultant, and trainer, Steve shares his expertise worldwide.
+>He has held platform leadership roles across various industries, including real estate, gaming, fintech, and the UK Parliament.
+>With a BSc in Computer Science, Steve is passionate about cloud-native software development and distributed computing.
+>Connect with him on Twitter and GitHub at @swade1987.
 
 - **[&rarr; Profile Pictures](assets/profile-pictures.md)**
 - **[&rarr; Social Links](#social)**
