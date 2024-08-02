@@ -13,6 +13,16 @@
 
 # Talks
 
+## 2024
+
+**The unanswerable question** - DevOps Society (July Edition)
+
+- [📹 Recording (🇬🇧)](https://www.youtube.com/watch?v=s9zjayZ1oxA)
+
+**From free-kicks to git commits** - DevOps Exchange London (April Edition)
+
+- [📹 Recording (🇬🇧)](https://youtu.be/XOhqTARQfD4?si=BNdpakqYbu4s98Ec)
+
 ## 2021
 
 **Rawkode Live** - Infrastructure as Code & GitOps
