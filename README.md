@@ -17,7 +17,7 @@
 
 **The unanswerable question** - DevOps Society (July Edition)
 
-- [📹 Recording (🇬🇧)](https://www.youtube.com/watch?v=s9zjayZ1oxA)
+- [📹 Recording (🇬🇧)](https://youtu.be/Xa1fjHHfeXg?si=ZU8HqPqwvT7RtdhY)
 
 **From free-kicks to git commits** - DevOps Exchange London (April Edition)
 
