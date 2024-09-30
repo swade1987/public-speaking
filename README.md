@@ -6,7 +6,6 @@
 >As an experienced conference speaker, independent cloud-native consultant, and trainer, Steve shares his expertise worldwide.
 >He has held platform leadership roles across various industries, including real estate, gaming, fintech, and the UK Parliament.
 >With a BSc in Computer Science, Steve is passionate about cloud-native software development and distributed computing.
->Connect with him on Twitter and GitHub at @swade1987.
 
 - **[&rarr; Profile Pictures](assets/profile-pictures.md)**
 - **[&rarr; Social Links](#social)**
