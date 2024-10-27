@@ -14,6 +14,14 @@
 
 ## 2024
 
+**DevSecOps Overflow** - Series 4 / Episode 8
+
+- [🎧 Podcast (🇬🇧)](https://open.spotify.com/episode/6Cvyct2mT0p7BdOMbfkCv9?si=8f26a2a396c64578)
+
+**We Chat Tech Podcast** - Episode 001 (October Edition)
+
+- [🎧 Podcast (🇬🇧)](https://open.spotify.com/episode/0C7IUJ1dolPYDisKfCgA8K?si=G1m0zz_iRvegDjMHFjxdKA)
+
 **The unanswerable question** - DevOps Society (July Edition)
 
 - [📹 Recording (🇬🇧)](https://youtu.be/Xa1fjHHfeXg?si=ZU8HqPqwvT7RtdhY)
@@ -82,6 +90,6 @@
 
 ## Social
 
-- Blog:    https://medium.com/@swade1987
-- Twitter: https://twitter.com/swade1987
-- GitHub:  https://github.com/swade1987
+- Blog:      https://medium.com/@swade1987
+- GitHub:    https://github.com/swade1987
+- LinkedIn:  https://www.linkedin.com/in/stevendavidwade 
