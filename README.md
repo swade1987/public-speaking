@@ -16,13 +16,13 @@
 
 **From free-kicks to git commits** - TechMids (no recording)
 
-- [🔗](https://conf.techmids.io/speakers/SteveWade)
+- [🔗 Conference Link](https://conf.techmids.io/speakers/SteveWade)
 
 **From free-kicks to git commits** - Kubernetes Community Days UK - London 2024
 
 - [📹 Recording (coming soon) (🇬🇧)](TBC)
 
-**DevSecOps Overflow** - Series 4 / Episode 8
+**DevSecOps Overflow Podcast** - Series 4 / Episode 8
 
 - [🎧 Podcast (🇬🇧)](https://open.spotify.com/episode/6Cvyct2mT0p7BdOMbfkCv9?si=8f26a2a396c64578)
 
