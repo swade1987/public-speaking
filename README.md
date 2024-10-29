@@ -20,7 +20,7 @@
 
 **From free-kicks to git commits** - Kubernetes Community Days UK - London 2024
 
-- [📹 Recording (🇬🇧)]([TBC](https://www.youtube.com/watch?v=4kyrSHQuDTk))
+- [📹 Recording (🇬🇧)](https://www.youtube.com/watch?v=4kyrSHQuDTk)
 
 **DevSecOps Overflow Podcast** - Series 4 / Episode 8
 
