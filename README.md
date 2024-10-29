@@ -14,6 +14,14 @@
 
 ## 2024
 
+**From free-kicks to git commits** - TechMids (no recording)
+
+- [🔗](https://conf.techmids.io/speakers/SteveWade)
+
+**From free-kicks to git commits** - Kubernetes Community Days UK - London 2024
+
+- [📹 Recording (coming soon) (🇬🇧)](TBC)
+
 **DevSecOps Overflow** - Series 4 / Episode 8
 
 - [🎧 Podcast (🇬🇧)](https://open.spotify.com/episode/6Cvyct2mT0p7BdOMbfkCv9?si=8f26a2a396c64578)
@@ -21,6 +29,14 @@
 **We Chat Tech Podcast** - Episode 001 (October Edition)
 
 - [🎧 Podcast (🇬🇧)](https://open.spotify.com/episode/0C7IUJ1dolPYDisKfCgA8K?si=G1m0zz_iRvegDjMHFjxdKA)
+
+**From Console Chaos to GitOps Clarity: A FinTech Transformation Tale** - Civo Navigate Europe 2024
+
+- [📹 Recording (coming soon) (🇬🇧)](TBC)
+
+**From free-kicks to git commits** - Civo Navigate Europe 2024
+
+- [📹 Recording (coming soon) (🇬🇧)](TBC)
 
 **The unanswerable question** - DevOps Society (July Edition)
 
