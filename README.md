@@ -30,6 +30,10 @@
 
 - [🎧 Podcast (🇬🇧)](https://open.spotify.com/episode/0C7IUJ1dolPYDisKfCgA8K?si=G1m0zz_iRvegDjMHFjxdKA)
 
+**From free-kicks to git commits** - SRE Days 2024
+
+- [📹 Recording (🇬🇧)](https://youtu.be/TXgD7eHI8u8?si=BPV4l6BwcW3qo1mA)
+
 **From Console Chaos to GitOps Clarity: A FinTech Transformation Tale** - Civo Navigate Europe 2024
 
 - [📹 Recording (coming soon) (🇬🇧)](TBC)
