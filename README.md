@@ -36,7 +36,7 @@
 
 **From Console Chaos to GitOps Clarity: A FinTech Transformation Tale** - Civo Navigate Europe 2024
 
-- [📹 Recording (coming soon) (🇬🇧)](TBC)
+- [📹 Recording (🇬🇧)]([TBC](https://www.youtube.com/watch?v=qJ6UhKfJ3HU))
 
 **From free-kicks to git commits** - Civo Navigate Europe 2024
 
