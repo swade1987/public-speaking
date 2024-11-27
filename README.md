@@ -40,7 +40,7 @@
 
 **From free-kicks to git commits** - Civo Navigate Europe 2024
 
-- [📹 Recording (coming soon) (🇬🇧)](TBC)
+- [📹 Recording (🇬🇧)](https://www.youtube.com/watch?v=1IFkQylBrYo)
 
 **The unanswerable question** - DevOps Society (July Edition)
 
