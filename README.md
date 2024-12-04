@@ -50,12 +50,17 @@
 
 - [📹 Recording (🇬🇧)](https://youtu.be/XOhqTARQfD4?si=BNdpakqYbu4s98Ec)
 
+## 2022
+
+**Kubernetes Podcast from Google** - Kubernetes Consulting with Steve Wade
+
+- [🎧 Recording (🇬🇧)](https://kubernetespodcast.com/episode/183-consulting/)
+
 ## 2021
 
 **Rawkode Live** - Infrastructure as Code & GitOps
 
 - [📹 Recording (🇬🇧)](https://www.youtube.com/watch?v=s9zjayZ1oxA)
-
 
 ## 2020
 
