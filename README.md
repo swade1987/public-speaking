@@ -2,7 +2,7 @@
 
 ## Speaker Bio
 
->Steve Wade, Cloud-Native Consultant & Trainer - Steven Wade Consulting
+>Steve Wade, Cloud-Native Consultant & Trainer - Independent
 >
 >Steve Wade founded The Cloud Native Club, a global community for cloud-native enthusiasts. He is also a maintainer of the Flux Terraform Provider.
 >As an experienced conference speaker, independent cloud-native consultant, and trainer, Steve shares his expertise worldwide.
