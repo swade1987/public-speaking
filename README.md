@@ -14,6 +14,16 @@
 
 # Talks
 
+## 2025
+
+**Cloud Native Wheel Of Fortune** - Kubecon EU(recording coming soon)
+
+**The Human API: Engineering Better Conversations** - SRE Days London (recording coming soon)
+
+**The Human API: Engineering Better Conversations** - Cloud Platform Engineering London Meetup (no recording)
+
+- [🔗 Meetup Link](https://www.meetup.com/cloud-platform-engineering-london/events/306324599)
+
 ## 2024
 
 **From free-kicks to git commits** - TechMids (no recording)
