@@ -4,19 +4,21 @@
 
 >Steve Wade, Cloud-Native Consultant & Trainer - Independent
 >
->Steve Wade founded The Cloud Native Club, a global community for cloud-native enthusiasts. He is also a maintainer of the Flux Terraform Provider.
+>Steve Wade founded The Cloud Native Club, a global community for cloud-native enthusiasts. He is also an ex-maintainer of the Flux Terraform Provider.
 >As an experienced conference speaker, independent cloud-native consultant, and trainer, Steve shares his expertise worldwide.
 >He has held platform leadership roles across various industries, including real estate, gaming, fintech, and the UK Parliament.
 >With a BSc in Computer Science, Steve is passionate about cloud-native software development and distributed computing.
 
-- **[&rarr; Profile Pictures](assets/profile-pictures.md)**
+- **[&rarr; Profile Picture](assets/profile-picture.md)**
 - **[&rarr; Social Links](#social)**
 
 # Talks
 
 ## 2025
 
-**Cloud Native Wheel Of Fortune** - Kubecon EU(recording coming soon)
+**Cloud Native Wheel Of Fortune** - Kubecon EU 2025 (London)
+
+- [📹 Recording (🇬🇧)](https://youtu.be/Pmba7R4_4oU?si=Wd9U8ZKTgesaHx2R)
 
 **The Human API: Engineering Better Conversations** - SRE Days London (recording coming soon)
 
