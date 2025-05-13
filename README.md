@@ -20,7 +20,9 @@
 
 - [📹 Recording (🇬🇧)](https://youtu.be/Pmba7R4_4oU?si=Wd9U8ZKTgesaHx2R)
 
-**The Human API: Engineering Better Conversations** - SRE Days London (recording coming soon)
+**The Human API: Engineering Better Conversations** - SRE Days London
+
+- [📹 Recording (🇬🇧)](https://youtu.be/_0IAqK4pv-U?si=IsDF3-JOT4vLPnkZ)
 
 **The Human API: Engineering Better Conversations** - Cloud Platform Engineering London Meetup (no recording)
 
