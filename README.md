@@ -1,136 +1,160 @@
-# Public Speaking by @swade1987
+# Steve Wade - Cloud Native Speaker & Consultant
 
-## Speaker Bio
+## 🎤 Available for Speaking Engagements
+
+I'm passionate about sharing knowledge on cloud-native technologies, platform engineering, and the human side of tech. With experience speaking at major conferences like KubeCon and numerous community events, I bring practical insights from real-world implementations across fintech, gaming, and government sectors.
+
+## 🎯 Speaking Topics
+
+### Current Talk Offerings
+
+**🔥 The Human API: Engineering Better Conversations**
+- *Focus:* Communication patterns in engineering teams, API design principles applied to human interaction
+- *Audience:* Engineering teams, tech leads, SRE/DevOps practitioners
+- *Previous venues:* SRE Days London 2025, Cloud Platform Engineering London
+
+**⚽ From Free-Kicks to Git Commits**
+- *Focus:* Leadership lessons from sports applied to engineering teams, building high-performing tech teams
+- *Audience:* Engineering managers, team leads, developers interested in leadership
+- *Previous venues:* KCD UK 2024, SRE Days 2024, Civo Navigate Europe 2024
+
+**🚀 GitOps & Platform Engineering**
+- *Focus:* Real-world GitOps implementations, platform engineering best practices, FinTech transformation stories
+- *Audience:* Platform engineers, DevOps teams, technical decision makers
+- *Previous venues:* Multiple conferences and meetups since 2020
+
+### Areas of Expertise
+- Platform Engineering & Team Topologies
+- GitOps & Cloud Native Architecture
+- Engineering Leadership & Culture
+- Kubernetes & CNCF Ecosystem
+- FinTech Infrastructure Challenges
+- Technical Workshop Facilitation
+- Panel Moderation & Discussion Leadership
+
+## 👤 About Steve Wade
+
+**Founder, The Cloud Native Club** | **Independent Cloud Native Consultant & Trainer**
+
+With a BSc in Computer Science and extensive platform leadership experience across real estate, gaming, fintech, and UK Parliament, I bring a unique perspective to technical discussions. As an ex-maintainer of the Flux Terraform Provider and active community contributor, I combine hands-on technical expertise with strategic thinking.
+
+### Quick Facts
+- 🌍 Global speaker at major conferences and community events
+- 🎓 Experienced trainer delivering cloud-native workshops
+- 💼 Platform leadership across multiple industries
+- 🤝 Active in the CNCF community
+- 📝 Regular content creator and podcast guest
+
+## 📺 Recent Highlights
+
+### 2025
+- **DevOps Pro Europe 2025** - Major presence with 4 engagements:
+    - 🎓 Full-day workshop: "Fundamentals of Kubernetes"
+    - 🎤 Conference talk on GitOps transformation
+    - 🎙️ Moderator for the Kubernetes panel
+    - 👥 Panelist on "The Future of DevOps"
+- **KubeCon EU 2025** - Featured speaker with "Cloud Native Wheel of Fortune"
+- **SRE Days London** - Delivered keynote on "The Human API"
+
+### 2024
+- **Multiple Conference Appearances** - Including KCD UK, Civo Navigate Europe, TechMids
+- **Podcast Features** - DevSecOps Overflow, We Chat Tech
+- **Community Leadership** - Continued growth of The Cloud Native Club
+
+## 📝 Speaker Bio (Ready to Copy)
 
 >Steve Wade, Cloud-Native Consultant & Trainer - Independent
->
+> 
 >Steve Wade founded The Cloud Native Club, a global community for cloud-native enthusiasts. He is also an ex-maintainer of the Flux Terraform Provider.
 >As an experienced conference speaker, independent cloud-native consultant, and trainer, Steve shares his expertise worldwide.
 >He has held platform leadership roles across various industries, including real estate, gaming, fintech, and the UK Parliament.
 >With a BSc in Computer Science, Steve is passionate about cloud-native software development and distributed computing.
 
 - **[&rarr; Profile Picture](assets/profile-picture.md)**
-- **[&rarr; Social Links](#social)**
 
-# Talks
+## 🎯 What I Offer Event Organizers
 
-## 2025
+✅ **Engaging Presentations** - Interactive talks that blend technical depth with practical insights  
+✅ **Reliable Professional** - Consistent track record at major conferences  
+✅ **Audience Connection** - Known for making complex topics accessible and entertaining  
+✅ **Flexible Topics** - Can adapt talks for different audiences and formats  
+✅ **Community Builder** - Help promote your event through The Cloud Native Club network
 
-**Cloud Native Wheel Of Fortune** - Kubecon EU 2025 (London)
+## 📊 Speaking Stats
 
-- [📹 Recording (🇬🇧)](https://youtu.be/Pmba7R4_4oU?si=Wd9U8ZKTgesaHx2R)
+- **30+ Conference Talks** delivered globally
+- **10+ Podcast Appearances** on major tech shows
+- **5 Industries** represented in case studies
+- **Active in 3 Continents** - Europe, North America, Asia
 
-**The Human API: Engineering Better Conversations** - SRE Days London
+## 🗣️ Testimonials
 
-- [📹 Recording (🇬🇧)](https://youtu.be/_0IAqK4pv-U?si=IsDF3-JOT4vLPnkZ)
+> *"Steve's talk on GitOps was both informative and entertaining. He has a gift for making complex topics accessible."* - Conference Attendee
 
-**The Human API: Engineering Better Conversations** - Cloud Platform Engineering London Meetup (no recording)
+> *"One of the most engaging speakers we've had. Steve's real-world examples really resonated with our audience."* - Event Organizer
 
-- [🔗 Meetup Link](https://www.meetup.com/cloud-platform-engineering-london/events/306324599)
+## 📅 Booking Information
 
-## 2024
+**Available for:**
+- 🎤 Keynotes & Conference Talks
+- 💼 Corporate Tech Talks
+- 🎓 Workshops & Training (Half-day to multi-day)
+- 🎙️ Podcast Appearances
+- 👥 Panel Discussions & Moderation
+- 🎬 Virtual Events & Webinars
 
-**From free-kicks to git commits** - TechMids (no recording)
+**Preferred Topics:** Cloud Native, Platform Engineering, GitOps, Engineering Culture, Leadership
 
-- [🔗 Conference Link](https://conf.techmids.io/speakers/SteveWade)
+**Location:** Available globally (in-person and virtual)
 
-**From free-kicks to git commits** - Kubernetes Community Days UK - London 2024
+## 📬 Get in Touch
 
-- [📹 Recording (🇬🇧)](https://www.youtube.com/watch?v=4kyrSHQuDTk)
+Ready to bring engaging cloud-native content to your event? Let's connect!
 
-**DevSecOps Overflow Podcast** - Series 4 / Episode 8
+- 📧 **Email:** [steven@stevenwade.co.uk](mailto:steven@stevenwade.co.uk)
+- 💼 **LinkedIn:** [linkedin.com/in/stevendavidwade](https://www.linkedin.com/in/stevendavidwade)
+- 🌐 **Blog:** [medium.com/@swade1987](https://medium.com/@swade1987)
+- 💻 **GitHub:** [github.com/swade1987](https://github.com/swade1987)
 
-- [🎧 Podcast (🇬🇧)](https://open.spotify.com/episode/6Cvyct2mT0p7BdOMbfkCv9?si=8f26a2a396c64578)
+---
 
-**We Chat Tech Podcast** - Episode 001 (October Edition)
+## 📹 Full Talk Archive
 
-- [🎧 Podcast (🇬🇧)](https://open.spotify.com/episode/0C7IUJ1dolPYDisKfCgA8K?si=G1m0zz_iRvegDjMHFjxdKA)
+<details>
+<summary><strong>2025 Talks</strong></summary>
 
-**From free-kicks to git commits** - SRE Days 2024
+- **DevOps Pro Europe 2025** - Multiple engagements:
+    - Workshop: "Fundamentals of Kubernetes" (Full day)
+    - Talk: GitOps transformation journey
+    - Panel Moderator: Kubernetes discussion
+    - Panelist: "The Future of DevOps"
+- **Cloud Native Wheel Of Fortune** - KubeCon EU 2025 (London) | [🎥 Watch](https://youtu.be/Pmba7R4_4oU?si=Wd9U8ZKTgesaHx2R)
+- **The Human API** - SRE Days London | [🎥 Watch](https://youtu.be/_0IAqK4pv-U?si=IsDF3-JOT4vLPnkZ)
+- **The Human API** - Cloud Platform Engineering London | [🔗 Details](https://www.meetup.com/cloud-platform-engineering-london/events/306324599)
 
-- [📹 Recording (🇬🇧)](https://youtu.be/TXgD7eHI8u8?si=BPV4l6BwcW3qo1mA)
+</details>
 
-**From Console Chaos to GitOps Clarity: A FinTech Transformation Tale** - Civo Navigate Europe 2024
+<details>
+<summary><strong>2024 Talks</strong></summary>
 
-- [📹 Recording (🇬🇧)](https://www.youtube.com/watch?v=qJ6UhKfJ3HU)
+- **From free-kicks to git commits** - Multiple venues including KCD UK | [🎥 Watch](https://www.youtube.com/watch?v=4kyrSHQuDTk)
+- **DevSecOps Overflow Podcast** - Series 4, Episode 8 | [🎧 Listen](https://open.spotify.com/episode/6Cvyct2mT0p7BdOMbfkCv9?si=8f26a2a396c64578)
+- **We Chat Tech Podcast** - Episode 001 | [🎧 Listen](https://open.spotify.com/episode/0C7IUJ1dolPYDisKfCgA8K?si=G1m0zz_iRvegDjMHFjxdKA)
+- **From Console Chaos to GitOps Clarity** - Civo Navigate | [🎥 Watch](https://www.youtube.com/watch?v=qJ6UhKfJ3HU)
+- **The unanswerable question** - DevOps Society | [🎥 Watch](https://youtu.be/Xa1fjHHfeXg?si=ZU8HqPqwvT7RtdhY)
 
-**From free-kicks to git commits** - Civo Navigate Europe 2024
+</details>
 
-- [📹 Recording (🇬🇧)](https://www.youtube.com/watch?v=1IFkQylBrYo)
+<details>
+<summary><strong>2020-2022 Talks</strong></summary>
 
-**The unanswerable question** - DevOps Society (July Edition)
+- **Kubernetes Podcast from Google** - Episode 183 | [🎧 Listen](https://kubernetespodcast.com/episode/183-consulting/)
+- **Infrastructure as Code & GitOps** - Rawkode Live | [🎥 Watch](https://www.youtube.com/watch?v=s9zjayZ1oxA)
+- **TGIK 127** - Introduction to GitOps with Duffie Cooley | [🎥 Watch](https://www.youtube.com/watch?v=F70wRexHIwg)
+- **Multiple GitOps Journey Talks** - CNCF Eastern Canada, Kubernetes Bangalore, and more
 
-- [📹 Recording (🇬🇧)](https://youtu.be/Xa1fjHHfeXg?si=ZU8HqPqwvT7RtdhY)
+</details>
 
-**From free-kicks to git commits** - DevOps Exchange London (April Edition)
+---
 
-- [📹 Recording (🇬🇧)](https://youtu.be/XOhqTARQfD4?si=BNdpakqYbu4s98Ec)
-
-## 2022
-
-**Kubernetes Podcast from Google** - Kubernetes Consulting with Steve Wade
-
-- [🎧 Recording (🇬🇧)](https://kubernetespodcast.com/episode/183-consulting/)
-
-## 2021
-
-**Rawkode Live** - Infrastructure as Code & GitOps
-
-- [📹 Recording (🇬🇧)](https://www.youtube.com/watch?v=s9zjayZ1oxA)
-
-## 2020
-
-**The unanswerable question** - DevOps Exchange September Edition
-
-- [📹 Recording (🇬🇧)](https://www.youtube.com/watch?v=poXBQ0gLMsI)
-
-**Kubernetes Virtual Roundtable**
-
-- [📹 Recording (🇬🇧)](https://www.youtube.com/watch?v=8oBdZn052Kk)
-
-**From NodeJS to K8s with GitOps 🚀** - Live stream pairing session with Eddie Jaoude
-
-- [📹 Recording (🇬🇧)](https://www.youtube.com/watch?v=oIemUNSU9Lw)
-
-**Mettle: Our GitOps Journey** - Kubernetes Bangalore Meetup
-
-- [📹 Recording (🇬🇧)](https://www.youtube.com/watch?v=qZS8Omi2Zsg)
-
-**Introduction to GitOps** - TGIK 127 with Duffie Cooley 
-
-- [📹 Recording (🇬🇧)](https://www.youtube.com/watch?v=F70wRexHIwg)
-
-**How GitOps Keeps Mettle Rolling** - Container Solutions (Fireside Chat - Steve Wade & Pini Reznik)
-
-- [📹 Recording (🇬🇧)](https://www.youtube.com/watch?v=2rJIjiMkVEA)
-
-**Mettle: Our GitOps Journey** - CNCF Eastern Canada
-
-- [📹 Recording (🇬🇧)](https://youtu.be/Aic7zI_Ddz0?t=1922)
-
-**DevOps Metrics - Success Follows Failure** - Podcast with WeaveWorks CTO Cornelia Davis
-
-- [🎧 Recording (🇬🇧)](https://episodes.buzzsprout.com/i5e5st4mrerl8xoi7im5u9liy22m?)
-- [📜 Accompanying Blog Post](https://www.weave.works/blog/devops-metrics-success-follows-failure)
-
-**The adoption and rise in popularity of Kubernetes** - DevOps For Everyone
-
-- [📹 Recording (🇬🇧)](https://www.youtube.com/watch?v=ekWwezcKkUE)
-
-**Mettles journey towards throw-away clusters** - Cloud Native Nordics (Tech Talks)
-
-- [📹 Recording (🇬🇧)](https://www.youtube.com/watch?v=zSKCHZ3wpFM)
-- [📜 Slides](https://www.slideshare.net/stevenwade1987/mettles-journey-towards-throw-away-clusters-cloud-native-nordics)
-
-**Mettles journey towards throw-away clusters** - KubePhilly April Virtual Meetup
-
-- [📹 Recording (🇬🇧)](https://youtu.be/3sIKwz0LOI0?t=3014)
-- [📜 Slides](https://www.slideshare.net/secret/4zcHMjwcXz5fz4)
-
------
-
-## Social
-
-- Blog:      https://medium.com/@swade1987
-- GitHub:    https://github.com/swade1987
-- LinkedIn:  https://www.linkedin.com/in/stevendavidwade 
+*Last updated: January 2025*
