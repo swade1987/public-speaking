@@ -63,12 +63,11 @@ With a BSc in Computer Science and extensive platform leadership experience acro
 
 ## 📝 Speaker Bio (Ready to Copy)
 
->Steve Wade, Cloud-Native Consultant & Trainer - Independent
+>Steve Wade - CNCF Migration Specialist | Fixing Failed Kubernetes Transformations
 > 
->Steve Wade founded The Cloud Native Club, a global community for cloud-native enthusiasts. He is also an ex-maintainer of the Flux Terraform Provider.
->As an experienced conference speaker, independent cloud-native consultant, and trainer, Steve shares his expertise worldwide.
->He has held platform leadership roles across various industries, including real estate, gaming, fintech, and the UK Parliament.
->With a BSc in Computer Science, Steve is passionate about cloud-native software development and distributed computing.
+>Steve fixes failed Kubernetes migrations. With 50+ successful CNCF transformations under his belt, he helps enterprises go from "drowning in YAML" to "shipping daily" in 30 days.
+>Known for his "learn by breaking" approach and pragmatic take on the CNCF landscape, Steve speaks the uncomfortable truths about cloud-native adoption that vendors won't tell you.
+>Former Flux maintainer, current migration firefighter.
 
 - **[&rarr; Profile Picture](assets/profile-picture.md)**
 
