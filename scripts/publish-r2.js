@@ -6,7 +6,7 @@
 // object API (a plain bearer-token PUT per file). Same bucket, same
 // key-shape convention, and same one-file-per-request mechanism as
 // swade1987/slides' scripts/publish-r2.js (that repo owns the deck-build
-// pipeline this one doesn't need — this site is one static page, no
+// pipeline this one doesn't need: this site is one static page, no
 // per-manifest build step). The slides-router Worker reads the same
 // "<subdomain>/..." key shape to serve <subdomain>.stevenwade.xyz.
 //
@@ -46,10 +46,23 @@ const CONTENT_TYPES = {
   '.gif': 'image/gif',
   '.svg': 'image/svg+xml',
   '.ico': 'image/x-icon',
+  '.webp': 'image/webp',
 };
 
 function contentTypeFor(filePath) {
   return CONTENT_TYPES[path.extname(filePath).toLowerCase()] || 'application/octet-stream';
+}
+
+// HTML gets a short cache so a fresh publish shows up quickly; everything
+// else (images, CSS) changes rarely and can cache longer. No cache-busting
+// filenames exist here, so a genuine content change to a long-cached asset
+// stays stale at the edge/browser for up to a day - acceptable given how
+// infrequently theme.css or the headshot actually change, but worth
+// remembering if one needs to look "instantly" updated.
+function cacheControlFor(filePath) {
+  return path.extname(filePath).toLowerCase() === '.html'
+    ? 'public, max-age=300'
+    : 'public, max-age=86400';
 }
 
 function walk(dir) {
@@ -76,6 +89,7 @@ async function uploadFile(filePath, baseDir) {
     headers: {
       Authorization: `Bearer ${token}`,
       'Content-Type': contentTypeFor(filePath),
+      'Cache-Control': cacheControlFor(filePath),
     },
     body,
   });
