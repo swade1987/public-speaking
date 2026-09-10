@@ -228,6 +228,7 @@ footer.site-footer .social-icons {
   align-items: center;
 }
 footer.site-footer .social-icons a {
+  position: relative;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -245,4 +246,26 @@ footer.site-footer .social-icons a:hover {
 }
 footer.site-footer .social-icons svg {
   display: block;
+}
+footer.site-footer .social-icons a::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  bottom: calc(100% + 8px);
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--fg);
+  color: var(--bg);
+  font-size: 0.7rem;
+  font-weight: 600;
+  padding: 4px 8px;
+  border-radius: 4px;
+  white-space: nowrap;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity 0.15s ease;
+}
+footer.site-footer .social-icons a:hover::after {
+  opacity: 1;
+  visibility: visible;
 }
