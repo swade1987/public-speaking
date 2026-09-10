@@ -1,0 +1,111 @@
+<title>From "What's a Pod?" to Production Confidence | Steve Wade</title>
+<meta name="description" content="A one-day hands-on Kubernetes workshop, by Steve Wade.">
+<link rel="stylesheet" href="/theme.css">
+
+<main>
+  <a class="back-link" href="/">&larr; speaking.stevenwade.xyz</a>
+
+  <h1>From "What's a Pod?" to Production Confidence</h1>
+  <p class="tagline">One-Day Hands-On Kubernetes Workshop</p>
+
+  <section class="card" id="desc-text">
+    <div class="bio-header">
+      <span class="bio-label">Workshop description</span>
+      <button class="btn" onclick="copyDesc(this)" type="button">Copy description</button>
+    </div>
+    <p class="hook">"I've been meaning to learn Kubernetes for two years."</p>
+    <p>Steve Wade hears this from engineers at every conference. Smart people, shipping code every day. But Kubernetes keeps sitting in the "I'll get to it" pile, somewhere between that side project and the gym membership.</p>
+    <p>Here's the problem: every Kubernetes tutorial starts wrong. Deploy a pod. Expose a service. Congratulations, you've learned nothing about what happens when that pod dies at 3am on a Saturday. The gap between "hello world" and production confidence is where engineers get lost, get frustrated, and give up.</p>
+    <p>Steve has audited 50+ platforms and trained 6,000+ engineers worldwide. The pattern is always the same: teams that learn Kubernetes from tutorials can deploy. Teams that learn Kubernetes from production can debug, scale, and sleep through the night.</p>
+    <p>This workshop closes that gap in one day. Not theory, not slides you'll forget by Tuesday. You'll build a real cluster, deploy real workloads, break things on purpose, and fix them under pressure. Six hands-on labs, each designed to teach you the thing the tutorial skipped. Then you'll watch AI talk to the cluster you just built.</p>
+  </section>
+
+  <script>
+    function copyDesc(btn) {
+      var paras = document.querySelectorAll('#desc-text p');
+      var text = Array.prototype.map.call(paras, function (p) { return p.textContent; }).join('\n\n');
+      navigator.clipboard.writeText(text).then(function () {
+        var original = btn.textContent;
+        btn.textContent = 'Copied!';
+        setTimeout(function () { btn.textContent = original; }, 1800);
+      });
+    }
+  </script>
+
+  <h2>What You'll Walk Away With</h2>
+  <ul class="learn-list">
+    <li><strong>A cluster you built, broke, and fixed yourself:</strong> not a sandbox, a real Kubernetes cluster you deployed to, scaled, and recovered from failure.</li>
+    <li><strong>Your own GitHub repo to keep:</strong> every manifest, config, and lab you build during the day lives in a personal GitHub repository. Fork it, adapt it, run it on your own cluster on Monday. Yours forever.</li>
+    <li><strong>The ability to debug calmly:</strong> something breaks, you know where to look, what to run, and how to fix it. No Googling in a panic.</li>
+  </ul>
+
+  <h2>What People Are Saying</h2>
+  <blockquote class="testimonial">
+    <p>"All of it was completely new for me."</p>
+    <footer>Dainius, Data Engineer, carVertical <span class="archive-venue">Beginner &middot; 4/5</span></footer>
+  </blockquote>
+  <blockquote class="testimonial">
+    <p>"The expert, Steve, was incredibly kind and patient in answering all our questions, which made the workshop very effective."</p>
+    <footer>Damir, Backend Developer, Business Solutions <span class="archive-venue">Beginner &middot; 5/5</span></footer>
+  </blockquote>
+
+  <h2>Bonus Labs</h2>
+  <p>Three additional labs ship inside your take-home GitHub repository: DaemonSets, Network Policies, and Role-Based Access Control. Run them on your own local cluster (kind, k3s, Docker Desktop) whenever you're ready.</p>
+
+  <h2>Who It's For</h2>
+  <p>You'll fit right in if you're:</p>
+  <ul class="learn-list">
+    <li>A developer who keeps hearing about Kubernetes and wants to understand why.</li>
+    <li>Early in your career and want hands-on experience with production tooling.</li>
+    <li>Working adjacent to Kubernetes (QA, data, security) and need to understand what the platform team is talking about.</li>
+    <li>Someone who's done a tutorial or two but doesn't feel confident with real workloads.</li>
+  </ul>
+
+  <h2>Before You Arrive</h2>
+  <ul class="learn-list">
+    <li>You can open a terminal and run basic commands (cd, ls, that level).</li>
+    <li>You have a basic idea of what a container is. You don't need Docker expertise.</li>
+    <li>You're willing to break things on purpose.</li>
+  </ul>
+  <p>That's it. If you can type a command, you're ready.</p>
+
+  <h2>Session Details</h2>
+  <dl class="session-meta">
+    <dt>Format</dt>
+    <dd>One full day</dd>
+    <dt>Prerequisites</dt>
+    <dd>Basic terminal familiarity. No Kubernetes or Docker experience required.</dd>
+    <dt>You bring</dt>
+    <dd>A laptop with a modern browser (Chrome, Firefox, or Edge)</dd>
+    <dt>We provide</dt>
+    <dd>A pre-configured Kubernetes cluster per participant, every tool pre-installed, a complete lab guide, and a personal GitHub repository for everything you build</dd>
+  </dl>
+  <p>No local Kubernetes install, no Docker Desktop, no fighting with minikube. You'll be running commands within 15 minutes of sitting down.</p>
+
+  <h2>Your Trainer</h2>
+  <section class="card" id="trainer-bio-text">
+    <div class="bio-header">
+      <span class="bio-label">Trainer bio</span>
+      <button class="btn" onclick="copyTrainerBio(this)" type="button">Copy bio</button>
+    </div>
+    <p>Steve Wade rescues failed Kubernetes migrations. 50+ platforms audited, over &pound;100M in complexity prevented. He's the engineer organisations call when cloud-native promises become expensive nightmares.</p>
+    <p>6,000+ engineers trained worldwide. Speaker at KubeCon, DevOpsDays, and Bit Summit. CNCF certified (CKA, CKAD, CKS). Running Kubernetes in production since before it was boring.</p>
+    <p>His 2025 Bit Summit talk, "The CFO Question That Exposed &pound;2.3M in Hidden Risk" was called one of the most engaging sessions of the conference. This workshop is the hands-on version of that same philosophy: stop adding complexity, start understanding what you already have.</p>
+  </section>
+
+  <script>
+    function copyTrainerBio(btn) {
+      var paras = document.querySelectorAll('#trainer-bio-text p');
+      var text = Array.prototype.map.call(paras, function (p) { return p.textContent; }).join('\n\n');
+      navigator.clipboard.writeText(text).then(function () {
+        var original = btn.textContent;
+        btn.textContent = 'Copied!';
+        setTimeout(function () { btn.textContent = original; }, 1800);
+      });
+    }
+  </script>
+
+  <footer>
+    <a class="back-link" href="/">&larr; speaking.stevenwade.xyz</a>
+  </footer>
+</main>

@@ -1,0 +1,28 @@
+name: commit-lint
+
+on:
+  pull_request:
+    types:
+      - opened
+      - edited
+      - synchronize
+
+permissions:
+  contents: read
+  pull-requests: read
+
+jobs:
+  commit-lint:
+    name: commit-lint
+    runs-on: ubuntu-latest
+    # Dependabot's own commit messages don't pass commitlint's stricter
+    # subject-case/body-line-length rules (its PR titles do - pr-lint still
+    # runs for these). A job skipped by its own "if" reports as passing for
+    # required-status-check purposes, so this exempts Dependabot without
+    # weakening the check for anyone else.
+    if: github.event.pull_request.user.login != 'dependabot[bot]'
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 0
+      - uses: wagoid/commitlint-github-action@b948419dd99f3fd78a6548d48f94e3df7f6bf3ed # v6.2.1

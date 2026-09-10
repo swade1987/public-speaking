@@ -1,0 +1,128 @@
+<title>Steve Wade | Speaking</title>
+<meta name="description" content="Steve Wade, Founder of Platform Fix. Speaker bio, headshot, and talks.">
+<link rel="stylesheet" href="/theme.css">
+
+<main>
+  <div class="profile">
+    <img src="headshot.jpg" alt="Steve Wade headshot" width="140" height="140">
+    <div>
+      <h1>Steve Wade</h1>
+      <p class="tagline">The Pragmatic CNCF Guy, Founder, Platform Fix</p>
+      <p class="download-link"><a class="btn" href="headshot.jpg" download="steve-wade-headshot.jpg">Download full-size headshot &darr;</a></p>
+    </div>
+  </div>
+
+  <section class="card" id="bio-text">
+    <div class="bio-header">
+      <span class="bio-label">Speaker bio</span>
+      <button class="btn" onclick="copyBio(this)" type="button">Copy bio</button>
+    </div>
+    <p>I'm Steve Wade, The Pragmatic CNCF Guy and Founder of Platform Fix. Fifteen years in production infrastructure. Kubernetes since v1.2, back in 2015. Former Flux maintainer, Istio contributor, Kubernetes Ambassador for the DevOps Society.</p>
+    <p>I've watched over &pound;100M disappear into complexity nobody asked for. Across 50+ platform rescues, the average audit recovers &pound;276K a year.</p>
+    <p>Most consultants add complexity. I remove it. I built the Complexity Score to diagnose the damage, then the Deletion Protocol to remove it, in order, without adding a single new tool.</p>
+    <p>I've trained 6,000+ engineers across KubeCon, DevOps Days, DevOps Pro Europe, and enterprise engagements worldwide. Featured on the official Kubernetes Podcast and TGIK. I speak from experience, not theory.</p>
+  </section>
+
+  <script>
+    function copyBio(btn) {
+      var paras = document.querySelectorAll('#bio-text p');
+      var text = Array.prototype.map.call(paras, function (p) { return p.textContent; }).join('\n\n');
+      navigator.clipboard.writeText(text).then(function () {
+        var original = btn.textContent;
+        btn.textContent = 'Copied!';
+        setTimeout(function () { btn.textContent = original; }, 1800);
+      });
+    }
+  </script>
+
+  <h2>Talks I Offer</h2>
+
+  <div class="talk">
+    <p class="talk-title"><a href="/the-human-api/">The Human API: Engineering Better Conversations</a></p>
+    <p class="talk-meta">Communication frameworks for engineers, taught live</p>
+  </div>
+
+  <div class="talk">
+    <p class="talk-title"><a href="/kubernetes-workshop/">From "What's a Pod?" to Production Confidence</a></p>
+    <p class="talk-meta">One-day hands-on Kubernetes workshop</p>
+  </div>
+
+  <h2>Past Talks</h2>
+
+  <div class="talk">
+    <span class="talk-type">Workshop</span>
+    <p class="talk-title">GitOps Fundamentals with Flux</p>
+    <p class="talk-meta">DevOps Pro Europe &middot; 19 May 2026</p>
+  </div>
+
+  <div class="talk">
+    <span class="talk-type">Talk</span>
+    <p class="talk-title"><a href="https://youtu.be/2fij_Pv7ZSc" target="_blank" rel="noopener noreferrer">The Human API</a></p>
+    <p class="talk-meta">DevOps Pro Europe &middot; 21 May 2026</p>
+  </div>
+
+  <div class="talk">
+    <span class="talk-type">Panel</span>
+    <p class="talk-title">Humans Before Pipelines</p>
+    <p class="talk-meta">DevOps Pro Europe &middot; 21 May 2026</p>
+  </div>
+
+  <div class="talk">
+    <span class="talk-type">Panel</span>
+    <p class="talk-title"><a href="https://www.youtube.com/watch?v=1X2pYJEG4f4" target="_blank" rel="noopener noreferrer">GitOps Panel</a></p>
+    <p class="talk-meta">DevOps Pro Europe &middot; 21 May 2026</p>
+  </div>
+
+  <details class="archive">
+    <summary>View more past talks (16)</summary>
+
+    <div class="archive-year">
+      <h3>2026</h3>
+      <ul class="archive-list">
+        <li><a href="https://www.youtube.com/watch?v=ks_AOMNWQWc" target="_blank" rel="noopener noreferrer">&#127909; The Human API</a><span class="archive-venue">DevOps Society Meetup, Manchester</span></li>
+      </ul>
+    </div>
+
+    <div class="archive-year">
+      <h3>2025</h3>
+      <ul class="archive-list">
+        <li><a href="https://youtu.be/XFYAQLcTFgk?si=hisuAzsp-po0Euwy" target="_blank" rel="noopener noreferrer">&#127909; The Killer Question: How One Sentence Can Transform Your Engineering Career</a><span class="archive-venue">DevFest 2025, Prague</span></li>
+        <li><a href="https://youtu.be/n9u12Jeu8aQ?si=WBEaSWqlcIb8wBUz" target="_blank" rel="noopener noreferrer">&#127909; The CFO Question That Exposed &pound;2.3M in Hidden Risk</a><span class="archive-venue">BitSummit 2025, Hamburg</span></li>
+        <li><a href="https://youtu.be/y7paDQ8Ic0w?si=UZNd16hfWr17sKcZ" target="_blank" rel="noopener noreferrer">&#127909; How GitOps Enabled Us to Answer an Unanswerable Question</a><span class="archive-venue">DevOps Pro Europe 2025</span></li>
+        <li><a href="https://youtu.be/Pmba7R4_4oU?si=Wd9U8ZKTgesaHx2R" target="_blank" rel="noopener noreferrer">&#127909; Cloud Native Wheel of Fortune</a><span class="archive-venue">KubeCon EU 2025, London</span></li>
+        <li><a href="https://youtu.be/_0IAqK4pv-U?si=IsDF3-JOT4vLPnkZ" target="_blank" rel="noopener noreferrer">&#127909; The Human API</a><span class="archive-venue">SRE Days London</span></li>
+        <li><a href="https://www.youtube.com/watch?v=uN-zcIQXL70" target="_blank" rel="noopener noreferrer">&#127909; The Human API</a><span class="archive-venue">DevOps Society x Veracode Meetup, London</span></li>
+      </ul>
+    </div>
+
+    <div class="archive-year">
+      <h3>2024</h3>
+      <ul class="archive-list">
+        <li><a href="https://www.youtube.com/watch?v=4kyrSHQuDTk" target="_blank" rel="noopener noreferrer">&#127909; From Free-Kicks to Git Commits</a><span class="archive-venue">KCD UK and others</span></li>
+        <li><a href="https://open.spotify.com/episode/6Cvyct2mT0p7BdOMbfkCv9?si=8f26a2a396c64578" target="_blank" rel="noopener noreferrer">&#127911; DevSecOps Overflow Podcast, S4E8</a><span class="archive-venue">Podcast</span></li>
+        <li><a href="https://open.spotify.com/episode/0C7IUJ1dolPYDisKfCgA8K?si=G1m0zz_iRvegDjMHFjxdKA" target="_blank" rel="noopener noreferrer">&#127911; We Chat Tech Podcast, Episode 001</a><span class="archive-venue">Podcast</span></li>
+        <li><a href="https://www.youtube.com/watch?v=qJ6UhKfJ3HU" target="_blank" rel="noopener noreferrer">&#127909; The Power of One Question: How GitOps Changed Everything!</a><span class="archive-venue">Civo Navigate Europe, Berlin</span></li>
+        <li><a href="https://youtu.be/1IFkQylBrYo" target="_blank" rel="noopener noreferrer">&#127909; How a Football Injury Led to a Cloud-Native Career: The Ultimate Career Pivot!</a><span class="archive-venue">Civo Navigate Europe, Berlin</span></li>
+        <li><a href="https://youtu.be/Xa1fjHHfeXg?si=ZU8HqPqwvT7RtdhY" target="_blank" rel="noopener noreferrer">&#127909; The Unanswerable Question</a><span class="archive-venue">DevOps Society</span></li>
+      </ul>
+    </div>
+
+    <div class="archive-year">
+      <h3>2020&ndash;2022</h3>
+      <ul class="archive-list">
+        <li><a href="https://kubernetespodcast.com/episode/183-consulting/" target="_blank" rel="noopener noreferrer">&#127911; Kubernetes Podcast from Google, Episode 183</a><span class="archive-venue">Podcast</span></li>
+        <li><a href="https://www.youtube.com/watch?v=s9zjayZ1oxA" target="_blank" rel="noopener noreferrer">&#127909; Infrastructure as Code &amp; GitOps</a><span class="archive-venue">Rawkode Live</span></li>
+        <li><a href="https://www.youtube.com/watch?v=F70wRexHIwg" target="_blank" rel="noopener noreferrer">&#127909; TGIK 127: Introduction to GitOps</a><span class="archive-venue">with Duffie Cooley</span></li>
+      </ul>
+    </div>
+  </details>
+
+  <h2>Get in Touch</h2>
+  <ul class="contact-list">
+    <li><a href="https://calendly.com/platformfixer/conference-speaking-inquiry" target="_blank" rel="noopener noreferrer">Book a Call</a></li>
+    <li><a href="mailto:steve@platformfix.com">Email</a></li>
+    <li><a href="https://www.linkedin.com/in/stevendavidwade" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+    <li><a href="https://github.com/swade1987" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+    <li><a href="https://newsletter.platformfix.com/?utm_source=conference&amp;utm_campaign=speaking-site" target="_blank" rel="noopener noreferrer">Weekly Newsletter</a></li>
+  </ul>
+</main>

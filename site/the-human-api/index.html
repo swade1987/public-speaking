@@ -1,0 +1,72 @@
+<title>The Human API | Steve Wade</title>
+<meta name="description" content="The Human API: a talk on engineering better conversations, by Steve Wade.">
+<link rel="stylesheet" href="/theme.css">
+
+<main>
+  <a class="back-link" href="/">&larr; speaking.stevenwade.xyz</a>
+
+  <h1>The Human API</h1>
+  <p class="tagline">Engineering Better Conversations</p>
+
+  <section class="card" id="desc-text">
+    <div class="bio-header">
+      <span class="bio-label">Talk description</span>
+      <button class="btn" onclick="copyDesc(this)" type="button">Copy description</button>
+    </div>
+    <p class="hook">You can architect a system that handles millions of requests per second, but freeze when your manager asks, "How's it going?"</p>
+    <p>Welcome to the engineering paradox: we're fluent in multiple programming languages, but struggle with the one that pays our salary - human connection.</p>
+    <p>In this high-energy, hands-on session, Steve (the engineer who once tried to small-talk about GitOps at a wedding) reveals the systematic approach he built to fix it.</p>
+    <p>Forget soft-skills fluff. This is communication for engineers, by an engineer who's debugged both platforms AND personalities across &pound;100M+ in transformations.</p>
+    <p>Through live exercises and (deliberately awkward) roleplay, you'll practice the exact techniques that helped one engineer go from rejected ideas to VP of Engineering in six months.</p>
+    <p>Come ready to stand up and speak up. Warning: you might actually enjoy your next standup.</p>
+  </section>
+
+  <script>
+    function copyDesc(btn) {
+      var paras = document.querySelectorAll('#desc-text p');
+      var text = Array.prototype.map.call(paras, function (p) { return p.textContent; }).join('\n\n');
+      navigator.clipboard.writeText(text).then(function () {
+        var original = btn.textContent;
+        btn.textContent = 'Copied!';
+        setTimeout(function () { btn.textContent = original; }, 1800);
+      });
+    }
+  </script>
+
+  <h2>What You'll Learn</h2>
+  <ul class="learn-list">
+    <li><strong>The Killer Question:</strong> makes any conversation easier to start, and got Steve three advisory board positions.</li>
+    <li><strong>The Gesture Stack:</strong> three movements that command immediate authority in a room.</li>
+    <li><strong>The Triple-P Method:</strong> Problem &rarr; Process &rarr; Payoff, for explaining Kubernetes to your CEO without their eyes glazing over.</li>
+    <li><strong>Why you sound like a robot in meetings:</strong> and the 30-second fix that stops it.</li>
+  </ul>
+
+  <h2>Who It's For</h2>
+  <p>Engineers, platform engineers, and tech leads who can architect a system but freeze in the room where its budget gets decided, or whose ideas get talked over instead of acted on.</p>
+
+  <h2>Session Details</h2>
+  <dl class="session-meta">
+    <dt>Format</dt>
+    <dd>30&ndash;40 minutes</dd>
+    <dt>Audience size</dt>
+    <dd>100&ndash;500 attendees</dd>
+    <dt>Track fit</dt>
+    <dd>Career Development, Engineering Leadership, Culture &amp; Teams</dd>
+    <dt>Interaction level</dt>
+    <dd>High, with live exercises, roleplay, and audience participation</dd>
+    <dt>Equipment</dt>
+    <dd>Microphone, projector, room for attendees to stand and practice</dd>
+  </dl>
+
+  <h2>Watch It Live</h2>
+  <ul class="archive-list">
+    <li><a href="https://youtu.be/2fij_Pv7ZSc" target="_blank" rel="noopener noreferrer">&#127909; DevOps Pro Europe 2026</a><span class="archive-venue">21 May 2026</span></li>
+    <li><a href="https://www.youtube.com/watch?v=ks_AOMNWQWc" target="_blank" rel="noopener noreferrer">&#127909; DevOps Society Meetup, Manchester</a><span class="archive-venue">30 Apr 2026</span></li>
+    <li><a href="https://www.youtube.com/watch?v=uN-zcIQXL70" target="_blank" rel="noopener noreferrer">&#127909; DevOps Society x Veracode Meetup, London</a><span class="archive-venue">26 Aug 2025</span></li>
+    <li><a href="https://youtu.be/_0IAqK4pv-U?si=IsDF3-JOT4vLPnkZ" target="_blank" rel="noopener noreferrer">&#127909; SRE Days London</a><span class="archive-venue">2025</span></li>
+  </ul>
+
+  <footer>
+    <a class="back-link" href="/">&larr; speaking.stevenwade.xyz</a>
+  </footer>
+</main>
