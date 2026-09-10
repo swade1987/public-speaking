@@ -68,17 +68,26 @@ CI credential). In CI these are the `CLOUDFLARE_R2_TOKEN` /
   one, resolve the real value first (`gh api repos/<owner>/<repo>/git/refs/tags/<tag>`)
   rather than typing a SHA from memory. Dependabot opens the bump PRs going
   forward; prefer merging those over hand-editing pins.
-- **No branch ruleset on `main`.** Direct pushes are allowed; there's no
-  required-PR or required-review setting the way `swade1987/slides` and
-  `platformfix/podium` have. Steve is the sole author working directly in
-  chat, and commit-lint/pr-lint here run for future PRs but aren't wired as
-  required checks. If this repo ever gets a second contributor, revisit
-  that, along the same "author can't approve their own PR" reasoning
-  `platformfix/podium`'s CLAUDE.md documents.
+- **`main` has a branch ruleset (id `22787401`), same shape as
+  `platformfix/podium`'s.** Blocks deletion and force-push, requires a pull
+  request, and requires the `commit-lint` and `pr-lint` status checks to
+  pass before merge. `required_approving_review_count: 0` - GitHub blocks a
+  PR author approving their own PR, so a review requirement here would just
+  deadlock every PR (same reasoning `platformfix/podium`'s CLAUDE.md
+  documents). Steve (`swade1987`) is a bypass actor, so his own pushes can
+  still land directly - but the point of turning this on was to actually
+  route changes through PRs, so use one anyway rather than relying on the
+  bypass. Verify the live rule with `gh api repos/swade1987/public-speaking/rulesets/22787401`
+  rather than trusting this note, in case it's changed since.
+- **`allowed_merge_methods` is `["merge", "squash"]` - rebase merge is
+  deliberately excluded**, unlike `platformfix/podium`'s ruleset (which
+  currently allows all three). A GitHub rebase merge rewrites every commit
+  with a new SHA and signs none of them, silently landing unsigned commits
+  on `main`; squash and merge-commit are both signed by GitHub's own key
+  instead. Default to squash.
 
 ## Commits and pull requests
 
 Conventional Commits, checked by `commit-lint` (commit messages) and
-`pr-lint` (PR titles) on any pull request - not currently required for a
-direct push to `main`, but still the standard to write to. Every commit
-carries a `Signed-off-by:` trailer (`git commit -s`).
+`pr-lint` (PR titles) - both required status checks on the `main` ruleset.
+Every commit carries a `Signed-off-by:` trailer (`git commit -s`).
