@@ -120,15 +120,6 @@ h2 {
   margin-bottom: 6px;
 }
 .talk-title a { color: inherit; }
-.contact-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px 24px;
-}
-.contact-list a { color: var(--fg); }
 footer {
   margin-top: 56px;
   color: var(--muted);
@@ -213,4 +204,22 @@ blockquote.testimonial footer {
   display: flex;
   justify-content: space-between;
   gap: 12px;
+}
+
+/* Icon footer */
+footer.icon-footer {
+  display: flex;
+  gap: 20px;
+  margin-top: 48px;
+  padding-top: 20px;
+  border-top: 1px solid var(--border);
+}
+footer.icon-footer a {
+  color: var(--muted);
+  display: inline-flex;
+}
+footer.icon-footer a:hover { color: var(--accent); }
+footer.icon-footer svg {
+  width: 22px;
+  height: 22px;
 }
