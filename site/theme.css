@@ -269,3 +269,14 @@ footer.site-footer .social-icons a:hover::after {
   opacity: 1;
   visibility: visible;
 }
+
+/* Services page */
+.cta-row { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 18px; }
+.btn-primary { background: var(--accent); border-color: var(--accent); color: var(--bg); }
+.btn-primary:hover { opacity: 0.88; }
+.service-list { margin: 14px 0 0; }
+.upcoming-list { margin-bottom: 14px; }
+.upcoming-name { font-weight: 600; }
+.upcoming-list li { flex-direction: column; gap: 2px; padding: 12px 0; font-size: 1rem; }
+.upcoming-list .archive-venue { white-space: normal; font-size: 0.9rem; }
+.talk-meta a { color: var(--accent); }
