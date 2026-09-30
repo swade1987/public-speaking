@@ -280,3 +280,12 @@ footer.site-footer .social-icons a:hover::after {
 .upcoming-list li { flex-direction: column; gap: 2px; padding: 12px 0; font-size: 1rem; }
 .upcoming-list .archive-venue { white-space: normal; font-size: 0.9rem; }
 .talk-meta a { color: var(--accent); }
+.hero-photo {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 20px 0 24px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  filter: grayscale(1) contrast(1.05);
+}
