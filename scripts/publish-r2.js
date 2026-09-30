@@ -13,6 +13,7 @@
 // Needs CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID in the environment.
 const fs = require('fs');
 const path = require('path');
+const { contentTypeFor, cacheControlFor } = require('./asset-headers.js');
 
 const BUCKET = 'stevenwade-xyz-slides';
 
@@ -33,38 +34,6 @@ const absSiteDir = path.resolve(siteDir);
 if (!fs.existsSync(absSiteDir)) {
   console.error(`Site dir not found: ${absSiteDir}`);
   process.exit(1);
-}
-
-const CONTENT_TYPES = {
-  '.html': 'text/html; charset=utf-8',
-  '.css': 'text/css; charset=utf-8',
-  '.js': 'application/javascript; charset=utf-8',
-  '.json': 'application/json',
-  '.png': 'image/png',
-  '.jpg': 'image/jpeg',
-  '.jpeg': 'image/jpeg',
-  '.gif': 'image/gif',
-  '.svg': 'image/svg+xml',
-  '.ico': 'image/x-icon',
-  '.webp': 'image/webp',
-  '.xml': 'application/xml; charset=utf-8',
-  '.txt': 'text/plain; charset=utf-8',
-};
-
-function contentTypeFor(filePath) {
-  return CONTENT_TYPES[path.extname(filePath).toLowerCase()] || 'application/octet-stream';
-}
-
-// HTML gets a short cache so a fresh publish shows up quickly; everything
-// else (images, CSS) changes rarely and can cache longer. No cache-busting
-// filenames exist here, so a genuine content change to a long-cached asset
-// stays stale at the edge/browser for up to a day - acceptable given how
-// infrequently theme.css or the headshot actually change, but worth
-// remembering if one needs to look "instantly" updated.
-function cacheControlFor(filePath) {
-  return path.extname(filePath).toLowerCase() === '.html'
-    ? 'public, max-age=300'
-    : 'public, max-age=86400';
 }
 
 function walk(dir) {
