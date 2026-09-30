@@ -9,6 +9,7 @@ on:
     paths:
       - 'site/**'
       - 'scripts/publish-r2.js'
+      - 'scripts/asset-headers.js'
       - 'scripts/verify-live.js'
       - '.github/workflows/publish.yml'
 
