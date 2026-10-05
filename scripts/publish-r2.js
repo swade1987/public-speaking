@@ -14,6 +14,7 @@
 const fs = require('fs');
 const path = require('path');
 const { contentTypeFor, cacheControlFor } = require('./asset-headers.js');
+const { publishOrder } = require('./publish-order.js');
 
 const BUCKET = 'stevenwade-xyz-slides';
 
@@ -73,7 +74,7 @@ async function uploadFile(filePath, baseDir) {
 }
 
 (async () => {
-  const files = walk(absSiteDir);
+  const files = publishOrder(walk(absSiteDir));
   if (files.length === 0) {
     console.error(`No files found under ${absSiteDir}`);
     process.exit(1);
