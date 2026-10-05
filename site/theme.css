@@ -327,6 +327,7 @@ footer.site-footer .social-icons a:hover::after {
   font-size: 1.15rem;
   letter-spacing: 0.04em;
 }
+img.testimonial-avatar { display: block; border: 2px solid var(--border); }
 .testimonial-tile blockquote { margin: 0 0 18px; }
 .testimonial-tile blockquote p { margin: 0 0 10px; font-size: 0.95rem; }
 .testimonial-tile blockquote p:last-child { margin-bottom: 0; }
