@@ -289,3 +289,26 @@ footer.site-footer .social-icons a:hover::after {
   border: 1px solid var(--border);
   filter: grayscale(1) contrast(1.05);
 }
+
+/* Testimonials (services page) */
+.testimonial-card { margin: 0 0 22px; }
+.testimonial-card blockquote.testimonial { margin: 0 0 10px; }
+.testimonial-card blockquote.testimonial p + p { margin-top: 10px; }
+.testimonial-person {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-left: 20px;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+.testimonial-person img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--border);
+  flex-shrink: 0;
+}
+.testimonial-person strong { display: block; color: var(--fg); }
+.testimonial-role { display: block; }
