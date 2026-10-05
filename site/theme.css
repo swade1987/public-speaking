@@ -299,6 +299,9 @@ footer.site-footer .social-icons a:hover::after {
 }
 @media (min-width: 640px) {
   .testimonial-grid { grid-template-columns: 1fr 1fr; }
+  /* an odd last card spans the row instead of sitting alone in one column */
+  .testimonial-tile:last-child:nth-child(odd) { grid-column: 1 / -1; }
+  .testimonial-tile:last-child:nth-child(odd) blockquote { max-width: 560px; }
 }
 .testimonial-tile {
   margin: 0;
