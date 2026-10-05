@@ -36,6 +36,20 @@ function urlPathFor(rel) {
 }
 
 const sha256 = buf => crypto.createHash('sha256').update(buf).digest('hex');
+
+// Local stylesheet addresses a page links, version tag included ("/theme.css?v=20261005").
+// The bytes check below fetches each file under a throwaway query string, which proves the
+// origin holds the right file but cannot see a stale copy held under the real address. A
+// browser requests the real address, so that is checked too.
+function stylesheetHrefs(html) {
+  const found = [];
+  for (const [tag] of html.matchAll(/<link\b[^>]*>/gi)) {
+    if (!/\brel\s*=\s*["']stylesheet["']/i.test(tag)) continue;
+    const m = /\bhref\s*=\s*["']([^"']+)["']/i.exec(tag);
+    if (m && m[1].startsWith('/') && !m[1].startsWith('//')) found.push(m[1]);
+  }
+  return found;
+}
 const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
 
 async function retry(describe, attempt) {
@@ -84,6 +98,24 @@ async function main() {
     }
   }
 
+  // Every stylesheet a page links, fetched at exactly that address, must be the local file.
+  const checked = new Set();
+  for (const file of walk(root).filter(f => f.endsWith('.html'))) {
+    for (const href of stylesheetHrefs(fs.readFileSync(file, 'utf8'))) {
+      if (checked.has(href)) continue;
+      checked.add(href);
+      const local = path.join(root, href.split('#')[0].split('?')[0]);
+      const expected = sha256(fs.readFileSync(local));
+      const failure = await retry(`${href} (as the page requests it)`, async () => {
+        const res = await fetch(`${origin}${href}`);
+        if (res.status !== 200) return `status ${res.status}, expected 200`;
+        const got = sha256(Buffer.from(await res.arrayBuffer()));
+        return got === expected ? null : `serves different bytes from the repo (live ${got.slice(0, 12)}, repo ${expected.slice(0, 12)})`;
+      });
+      if (failure) { failures.push(failure); console.error(`FAIL ${failure}`); } else console.log(`ok   ${href} (as the page requests it)`);
+    }
+  }
+
   if (failures.length) {
     console.error(`\n${failures.length} check(s) failed; the site is not serving what was published.`);
     process.exit(1);
@@ -91,6 +123,6 @@ async function main() {
   console.log(`\nverified: ${origin} serves every published file, byte for byte.`);
 }
 
-module.exports = { urlPathFor, sha256 };
+module.exports = { urlPathFor, sha256, stylesheetHrefs };
 
 if (require.main === module) main();

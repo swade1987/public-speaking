@@ -45,8 +45,18 @@ pages that exist, and that there are no em dashes. After a publish,
 `scripts/verify-live.js` fetches every file from the real hostname with a
 throwaway `?cb=` query (so the CDN cache cannot answer for it), requires a 200
 with bytes identical to the repo, and requires each subpage to redirect when
-requested without its trailing slash. A green publish run therefore means the
-site is serving what was merged, not just that the upload finished.
+requested without its trailing slash. It also fetches each stylesheet at the
+exact address the page links, version tag included, because that is the address
+a browser requests and the throwaway query cannot see a stale copy held under
+it. A green publish run therefore means the site is serving what was merged,
+not just that the upload finished.
+
+Files upload in dependency order (`scripts/publish-order.js`): images and the
+stylesheet first, then pages, then `sitemap.xml`. A page must never be live
+before what it links: on 2026-10-05 the services page went live two seconds
+before its stylesheet, and a visitor in that gap got the new HTML with the old
+CSS. When you change `theme.css`, bump the `?v=` tag on the stylesheet link in
+the pages that use the new rules.
 
 Because `site-check` validates `sitemap.xml`, a new page must be added to it in
 the same change, or the PR fails.
